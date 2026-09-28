@@ -1,7 +1,8 @@
 ﻿namespace PF01_A1_V2
 {
-	internal class Productos
+	public class Productos
 	{
+		
 		//propiedades
 		public string nombre;
 		public double precio;
@@ -26,7 +27,7 @@
 		}
 
 		//Constructor
-		Productos(string nombre, double precio, string calidad)
+		public Productos(string nombre, double precio, string calidad)
 		{
 			this.nombre = nombre;
 			this.precio = precio;
@@ -40,5 +41,9 @@
 			Console.WriteLine("Precio: " + precio);
 			Console.WriteLine("Calidad: " + calidad);
 		}
+
+		
+
 	}
 }
+

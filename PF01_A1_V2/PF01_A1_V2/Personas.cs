@@ -49,7 +49,19 @@ namespace PF01_A1_V2
             edad++;
             Console.WriteLine(nombre + " ha cumplido " + edad + " años.");
         }
-    }
+
+		public void MayorEdad()
+		{
+			if (edad >= 18)
+			{
+				Console.WriteLine(nombre + " es mayor de edad.");
+			}
+			else
+			{
+				Console.WriteLine(nombre + " es menor de edad.");
+			}
+		}
+	}
     
 }
 
