@@ -28,5 +28,13 @@ namespace PF01_A1_V2
 			get { return calidad; }
 			set { calidad = value; }
 		}
+
+		//Constructor
+		Productos(string nombre, double precio, string calidad)
+		{
+			this.nombre = nombre;
+			this.precio = precio;
+			this.calidad = calidad;
+		}
 	}
 }
