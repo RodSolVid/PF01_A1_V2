@@ -4,10 +4,11 @@ using System.Text;
 
 namespace PF01_A1_V2
 {
-    internal class Personas
+    public class Personas
     {
-        //Propiedades
-        private string nombre;
+        
+            //Propiedades
+            private string nombre;
         private int edad;
         private char sexo;
 
@@ -30,7 +31,7 @@ namespace PF01_A1_V2
         }
 
         //Constructor
-        Personas(string nombre, int edad, char sexo)
+        public Personas(string nombre, int edad, char sexo)
         {
             this.nombre = nombre;
             this.edad = edad;
@@ -48,6 +49,7 @@ namespace PF01_A1_V2
             edad++;
             Console.WriteLine(nombre + " ha cumplido " + edad + " años.");
         }
-
     }
+    
 }
+
