@@ -6,5 +6,27 @@ namespace PF01_A1_V2
 {
 	internal class Productos
 	{
+		//propiedades
+		public string nombre;
+		public double precio;
+		public string calidad;
+
+		public string Nombre
+		{
+			get { return nombre; }
+			set { nombre = value; }
+		}
+
+		public double Precio
+		{
+			get { return precio; }
+			set { precio = value; }
+
+		}
+		public string Calidad
+		{
+			get { return calidad; }
+			set { calidad = value; }
+		}
 	}
 }
