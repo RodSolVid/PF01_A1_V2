@@ -12,6 +12,7 @@ namespace PF01_A1_V2
             Personas p = new Personas("Juan", 30, 'M');
 
             p.CumplirAnios();
+            
         }
     }
 }
