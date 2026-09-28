@@ -6,5 +6,9 @@ namespace PF01_A1_V2
 {
     internal class Personas
     {
+        //Propiedades
+        private string nombre;
+        private int edad;
+        private string sexo;
     }
 }
