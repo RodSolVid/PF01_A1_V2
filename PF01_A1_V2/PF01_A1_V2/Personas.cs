@@ -42,5 +42,12 @@ namespace PF01_A1_V2
         {
             Console.WriteLine($"Nombre: {nombre}, Edad: {edad}, Sexo: {sexo}");
         }
+
+        public void CumplirAnios()
+        {
+            edad++;
+            Console.WriteLine(nombre + " ha cumplido " + edad + " años.");
+        }
+
     }
 }
