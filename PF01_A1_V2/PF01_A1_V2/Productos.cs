@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace PF01_A1_V2
+﻿namespace PF01_A1_V2
 {
 	internal class Productos
 	{
@@ -35,6 +31,14 @@ namespace PF01_A1_V2
 			this.nombre = nombre;
 			this.precio = precio;
 			this.calidad = calidad;
+		}
+
+		//Métodos
+		public void MostrarDatosProductos()
+		{
+			Console.WriteLine("Nombre: " + nombre);
+			Console.WriteLine("Precio: " + precio);
+			Console.WriteLine("Calidad: " + calidad);
 		}
 	}
 }
