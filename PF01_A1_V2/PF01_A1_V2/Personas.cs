@@ -36,5 +36,11 @@ namespace PF01_A1_V2
             this.edad = edad;
             this.sexo = sexo;
         }
+
+        //Métodos
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"Nombre: {nombre}, Edad: {edad}, Sexo: {sexo}");
+        }
     }
 }
